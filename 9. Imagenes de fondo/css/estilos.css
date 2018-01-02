@@ -1,0 +1,21 @@
+div.fondo {
+  width: 1280px;
+  height: 720px;
+  border: 1px solid red;
+  background-color: gray; /*Si hay error con la url queda el color de fondo*/
+  background-image: url(https://placeimg.com/600/340/tech);
+
+  /* PROPIEDAD* background-repeat*/
+  background-repeat: repeat;
+  background-position: bottom right; /*Comienza abajo a la derecha*/
+}
+
+div.fondo2{
+  width: 1280px;
+  height: 720px;
+  border: 1px solid red;
+  background-color: gray;
+  background-image: url(../img/imagen.jpg);
+  background-repeat: repeat;
+  background-position: center; /*Comienza en el centro*/
+}

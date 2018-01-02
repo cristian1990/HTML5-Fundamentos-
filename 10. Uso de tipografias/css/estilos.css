@@ -1,0 +1,52 @@
+/*FUENTE IDEAL
+  • Helvetica */
+
+/*FUENTES DE REEMPLAZO (Fallback)
+  • Arial
+  • Times New Roman (entre comillas porque tiene salto de linea)
+  • sans-serif (Cualquiera que NO tenga serif) */
+h1 {
+  font-size: 50px;
+  font-family: helvetica ,arial ,"Times New Roman", sans-serif;
+}
+
+p {
+  font-family: Arial, "Times New Roman", sans-serif;
+  font-size: 20px;
+}
+
+/*PROPIEDAD font-weight*/
+.parrafo {
+  font-family: Arial, "Times New Roman", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+/*PROPIEDAD font-weight*/
+.parrafo2 {
+  font-family:"Times New Roman", sans-serif;
+  font-size: 23px;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+/*PROPIEDAD text-transform*/
+.parrafo3 {
+  font-family: impact,"Times New Roman", sans-serif;
+  font-size: 23px;
+  font-weight: lighter;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+/*PROPIEDAD line-height*/
+.parrafo4 {
+  font-family: verdana,"Times New Roman", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 40px;
+  color: blue;
+}

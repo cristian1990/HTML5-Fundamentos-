@@ -1,0 +1,12 @@
+img{
+  padding: 10px;
+  border: 5px solid #6351cc;
+  margin: 7px;
+  background:#b3aff5 ;
+}
+
+.imagen{
+  display: block;
+  width: 500px;
+  height: auto;
+}

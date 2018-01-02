@@ -1,0 +1,42 @@
+
+a {
+  display: block;
+}
+
+h1 {
+  display: inline;
+  background: #bfb6f7;
+}
+
+h2 {
+  background: #58f743;
+}
+
+p  {
+  background: #f5a070;
+}
+
+.parrafo {
+  display: inline;
+  background: #f5a070;
+}
+
+.link {
+  display: inline;
+  background: #da90e6;
+}
+
+h3 {
+  font-size: 33px;
+  width: 400px;
+  border: 5px solid red;
+  background: #bfb6f7;
+  margin-bottom: 1px;
+}
+
+h4 {
+  font-size: 23px;
+  padding: 10px;
+  background: #58f743;
+  margin-top: 8px;
+}

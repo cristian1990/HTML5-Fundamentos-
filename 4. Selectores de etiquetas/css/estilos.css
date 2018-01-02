@@ -1,0 +1,34 @@
+h2, p{
+    color: #949be4;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*RELACION JERARQUICA*/
+ul li{
+  color: #f44336;
+}
+
+ul li a{
+  color: green;
+}
+
+/*PSEUDO-CLASES DE ESTADO*/
+a:hover{
+  color: #301dd5;
+  font-size: 30px;
+}
+
+/*PSEUDO-CLASES DE POSICION*/
+p:first-of-type{
+  color: #8471ef;
+}
+
+p:last-of-type{
+  color:#ff9800 ;
+}
+
+/*PSEUDO-CLASES DE RELACION*/
+a:not(.destacado){
+  font-size: 25px;
+}
