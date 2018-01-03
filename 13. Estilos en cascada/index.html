@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Estilos en cascada</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--Toma estos valores antes de los externos-->
+    <style media="screen">
+      .titulo {
+        color: green;  /*No toma este valor (toma el del Inline)*/
+        background:#00bcd4 ;
+        padding: 10px;
+        border-radius: 5px;
+        width: 500px;
+      }
+
+      p#parrafo2 {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="titulo" style="color: white">Ac auctor augue mauris augue</h1>
+    <h2 id="subtitulo">Pretium fusce id velit ut tortor pretium. </h2>
+
+    <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Nisl rhoncus mattis rhoncus urna
+      neque viverra justo. Cum sociis natoque penatibus et magnis dis parturient montes.
+      Bibendum enim facilisis gravida neque convallis a cras semper auctor. Orci porta
+      non pulvinar neque laoreet. Tempor commodo ullamcorper a lacus vestibulum sed
+      arcu non odio. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim.
+      Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Habitant morbi
+      tristique senectus et netus. Vitae tempus quam pellentesque nec nam aliquam sem
+      et tortor. Dictum non consectetur a erat nam at lectus urna. Tincidunt nunc pulvinar
+      sapien et.</p>
+
+      <h2>Convallis posuere morbi leo urna</h2>
+      <h3 id="subtitulo">Odio ut sem nulla pharetra diam</h3>
+
+    <p id="parrafo2" style="color: black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Nisl rhoncus mattis rhoncus urna
+      neque viverra justo. Cum sociis natoque penatibus et magnis dis parturient montes.
+      Bibendum enim facilisis gravida neque convallis a cras semper auctor. Orci porta
+      non pulvinar neque laoreet. Tempor commodo ullamcorper a lacus vestibulum sed
+      arcu non odio. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim.
+      Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Habitant morbi
+      tristique senectus et netus. Vitae tempus quam pellentesque nec nam aliquam sem
+      et tortor. Dictum non consectetur a erat nam at lectus urna. Tincidunt nunc pulvinar
+      sapien et.</p>
+
+      <footer>cras sed felis eget velit</footer>
+  </body>
+</html>
+
+<!--NIVELES DE CASCADA-->
+<!-- Los 4 niveles de arriba hacia abajo
+  • 3. Enlace externo
+  • 2. Inclusion en Head (No recomendado)
+  • 1. Estilos Inline
+-->

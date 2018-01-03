@@ -1,0 +1,13 @@
+/*Propiedad Overflow
+• visible (por defecto) (se ve lo que desborda)
+• hidden (NO se ve lo que desborda)
+• scroll (añade un scroll al contenedor)
+*/
+div {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto; /*Centramos*/
+  background: #a8f1db;
+  padding: 10px;
+  overflow: scroll;
+}

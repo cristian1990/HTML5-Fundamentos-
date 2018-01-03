@@ -1,0 +1,22 @@
+/*Todos Los label y todos los input del tipo checkbox
+  tendran un display inline*/
+label, input[type=checkbox] {
+  display: inline;
+}
+
+/*Todos Los label y todos los input del tipo checkbox
+  tendran un display inline*/
+label, input[type=submit] {
+  margin-top: 20px;
+}
+
+/*Todos Los label y todos los input tendran un que no
+  sean "radio" tendran un display de bloque*/
+label, input:not([type=radio]) {
+  display: block;
+}
+
+/*se quitamos el margen al primer label llamado "nombre" */
+label:first-of-type {
+  margin-top: 0;
+}

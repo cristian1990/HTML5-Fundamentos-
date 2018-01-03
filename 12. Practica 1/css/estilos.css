@@ -1,0 +1,47 @@
+.contenedor {
+  width: 1000px; 
+  min-height: 200px; 
+  background-color: #dfe2e2;
+  margin: 0 auto; 
+  border: 1px solid black;
+  padding: 30px;
+}
+
+img {
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+h1 {
+  display: inline;
+}
+
+h3 {
+  margin-bottom: 7px;
+}
+
+ul, p {
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/*A todos los input que no sean el boton "Enviar". Y al textares */
+input:not([type=submit]), textarea {
+  width: 50%;
+  border: 1px solid gray;
+  padding: 4px;
+}
+
+/*Al boton "enviar" lo coloco a la Izquierda*/
+input[type=submit] {
+  float: width; /*Por defecto*/
+}
+
+form {
+  margin-top: 30px;
+}

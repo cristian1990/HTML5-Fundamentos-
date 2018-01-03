@@ -1,0 +1,19 @@
+/*A mayor "z-index" mas arriba esta*/
+.contenedor1 {
+  width: 500px;
+  height: 300px;
+  background: red;
+  position: relative;
+  top: 50px;
+  z-index: 999; /*Solo funciona en elementos posicionados*/
+  opacity: 0.5;
+}
+
+.contenedor2 {
+  width: 500px;
+  height: 300px;
+  background: blue;
+  position: relative;
+  top: -50;
+  z-index: 998;
+}

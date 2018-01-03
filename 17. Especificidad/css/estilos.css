@@ -1,0 +1,38 @@
+.color {
+  color: blue;
+}
+
+#color {
+  color: white; /*Toma este color porque es mas especifico*/
+}
+
+h1 {
+  color: green;
+  background:#bca9ef; /*Toma este color*/
+}
+
+/*************************************************************/
+
+.parrafo {
+  background: black;
+  font-size: 50px;
+  font-family: arial;
+  color: yellow;
+  padding: 10px; /*Toma este valor*/
+}
+
+/*Toma estos valores porque es mas especifico*/
+#parrafo {
+  background: gray;
+  font-size: 16px;
+  font-family: verdana;
+  color: white;
+}
+
+p {
+  background: green;
+  font-size: 90px;
+  font-family: impact;
+  color: black;
+  font-weight: bold; /*Toma este valor*/
+}

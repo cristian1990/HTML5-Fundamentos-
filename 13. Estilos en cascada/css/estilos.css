@@ -1,0 +1,63 @@
+/*SELECTORES DE TIPO*/
+h3 {
+  font-size: 40px;
+}
+
+footer { 
+  font-style: normal;
+  font-size: 100px;
+  color: #11092d; /*Unico valor que permanece*/
+}
+/*SELECTORES DE CLASE (Pueden reutilizarse)*/
+.titulo {
+  color: black;
+  background:red ;
+  padding: 50px;
+  border-radius: 10px;
+  width: 800px;
+}
+
+/*SELECTORES DE ID (No deben reutilizarse)*/
+#subtitulo {
+  background: #f3be71;
+  color: white;
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+/*SELECTORES COMPUESTOS*/
+h2#subtitulo2 {
+  background: #f3be71;
+  color: white;
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h2:not(#subtitulo) {
+  color: white;
+  background:#00bcd4 ;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 30px;
+  width: 500px
+}
+
+p.parrafo {
+  color: #673ab7;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p#parrafo2 {
+  color: #9c040c !important; /*Tomaria este valor sobre todos.*/
+  font-size: 20px;
+}
+
+footer { /*Cambio valores del footer*/
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+/*Propiedad position
+  • static (por defecto) ("No posicionado")
+  • fixed (posiciona un elemento en un lugar fijo)
+      • top 
+      • botton 
+      • left 
+      • right 
+  • absolute (se redimensiona con respecto a body, si no hay un padre posicionado)
+      • top 
+      • botton 
+      • left 
+      • right 
+  • relative (se puede reposicionar el elemento en relacion a si mismo)
+      • top 
+      • botton 
+      • left 
+      • right 
+*/
+.contenedor1 {
+  width: 600px;
+  height: 450px;
+  background: blue;
+  position: relative; /*Se puede reposicionar el elemento*/
+  top: 50px;
+}
+
+.contenedor2 {
+  width: 600px;
+  height: 400px;
+  background: green;
+  position: static; /*Permanece en el mismo lugar (static)*/
+}

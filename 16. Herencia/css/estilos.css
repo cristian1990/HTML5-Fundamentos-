@@ -1,0 +1,23 @@
+/*POR DEFECTO ALGUNAS PROPIEDADES SE HEREDAN
+ Los "hijos" h1 y p, heredan de body el color rojo*/
+body {
+  color: red;
+}
+
+h1 {
+  color: blue; /*Quito la herencia de color*/
+}
+
+p {
+  color: inherit; /*Hereda el color (Se puede omitir)*/
+  border: 1px solid blue;
+}
+
+/*La propiedad "span" No se hereda por defecto*/
+span {
+  border: inherit; /*Indico que quiero heredar el borde*/
+}
+
+a {
+  color: inherit; /*Indico que quiero heredar el color*/
+}

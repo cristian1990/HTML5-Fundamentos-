@@ -1,0 +1,40 @@
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom:1;
+}
+
+#contenedor {
+  width: 1000px;
+  min-height: 300px;
+  background: #bdbdbc;
+}
+
+.flota1 {
+  width: 750px;
+  height: 500px;
+  background: green;
+  float: left;
+}
+
+.flota2 {
+  width: 250px;
+  height: 500px;
+  background: yellow;
+  float: right;
+}
+
+#contenedor > div {
+  opacity: 0.4;
+}
+
+.clear {
+  clear: both; /*No puede tener elementos flotantes alrededor*/
+}
