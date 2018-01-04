@@ -1,0 +1,34 @@
+/*Sprites, es una coleccion de imagenes que forman una unica gran imagen*/
+#sprite {
+  background-image: url(../img/imagen.png);
+  /*colocamos la medida de un icono*/
+  width: 21px;
+  height: 21px;
+  /*reposicionamos*/
+  border: 1px solid gray;
+  background-position: -70px -11px;
+}
+
+#sprite2 {
+  background-image: url(../img/imagen.png);
+  width: 21px;
+  height: 21px;
+  border: 1px solid gray;
+  background-position: -160px -11px;
+}
+
+#sprite3 {
+  background-image: url(../img/imagen.png);
+  width: 21px;
+  height: 21px;
+  border: 1px solid gray;
+  background-position: -70px -100px;
+}
+
+h2 {
+  background: #7f9bea;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  width: 200px;
+}

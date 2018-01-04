@@ -1,0 +1,28 @@
+/*Pseudo-Clases*/
+/*Se define un elemento basado en su estado o posicion*/
+div {
+  width: 200px;
+  height: 80px;
+  background: #9598fb;
+  color: white;
+  font-family: arial;
+  text-align: center;
+  line-height: 80px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+div:first-of-type {
+  background: #f58268;
+  color: black;
+}
+
+div:last-of-type {
+  background: #72df7d;
+  color: #7b797b;
+}
+
+div:nth-child(3) {
+  background: #2e2f20;
+  color: #02f136;
+}

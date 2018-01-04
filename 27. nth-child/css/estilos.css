@@ -1,0 +1,56 @@
+/*nth-child*/
+/*Esta propiedad acepta
+  • Enteros 
+  • Keywords 
+  • an + b */
+div:not(.parrafos) {
+  width: 150px;
+  height: 60px;
+  background: #9598fb;
+  color: white;
+  font-family: arial;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+/*cambio el color de background y tamaño del parrafo 4*/
+p:nth-child(4) {
+  background-color: #ffeb3b;
+  font-size: 20px;
+}
+
+/*cambio el color de background de las cajas pares*/
+div:nth-child(even) {
+  background: #ec8f73;
+  color: #000000;
+}
+
+/*Selecciono cada 3 parrafos*/
+p:nth-child(3n) {
+  background-color: #1eef19;
+  color: white;
+}
+
+/*Selecciono cada 3 parrafos pero desde el parrafo 7*/
+p:nth-child(3n + 7) {
+  background-color: red;
+  color: white;
+  font-size: 20;
+}
+
+/*Selecciono los primeros 4 parrafos*/
+.parrafos p:nth-child(-n + 4){
+  background-color: #9683e6;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+}
+
+/*Selecciono los ultimos 2 parrafos*/
+.parrafos p:nth-last-child(-n + 2){
+  background-color: #ff5722;
+  color: white;
+  width: 50%;
+}

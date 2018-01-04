@@ -1,0 +1,26 @@
+/*PSEUDO-ELEMENTOS (Me permite tener mas control sobre los elementos)*/
+
+/*Cambio el estilo de la primera linea*/
+p:first-line {
+  color: red;
+  font-size: 20px;
+}
+
+/*Cambio el estilo de la primera letra*/
+p:first-letter {
+  font-size: 30px;
+}
+
+/*Before = inserta contenido antes*/
+h1:before {
+  content: 'Julio Cortázar';
+  margin-right: 10px;
+  color: red;
+}
+
+/*After = inserta contenido despues*/
+h1::after {
+  content: 'Argentino';
+  margin-right: 10px;
+  color: green;
+}

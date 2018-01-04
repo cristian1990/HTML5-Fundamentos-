@@ -1,0 +1,49 @@
+/*ELEMENTOS ADYACENTES
+  Colapso de margenes
+  • NO aplica a elementos flotantes (float)
+  • NO aplica con elementos posicionados (position)
+  • NO aplica para elementos inline-block (display)*/
+div {
+  width: 90%;
+  height: 100px;
+}
+
+body {
+	font-size: 20px;
+}
+
+.publicidad1 {
+  background: #31203e;
+  margin-bottom: 25px; /*Aplica este porque es mayor, (No se suman)*/
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+.publicidad2 {
+  margin-top: 20px; /*Redundante (tambien se podria usar con -20px)*/
+  background: #31203e;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+/*ELEMENTOS ANIDADES
+  Parece que el contenedor es el que tiene el margen aunque
+  lo aplico en la cabecera */
+#contenedor {
+  width: 90%;
+  min-height: 500px;
+  background: #68bef3;
+  margin: 10 auto; /*No prevalece*/
+  padding: 1px; /*Deshago el colapso de margenes*/
+}
+
+#cabecera {
+  width: auto;
+  height: 100px;
+  background: #f9fdfd;
+  margin-top: 20px; /*Aplica este porque es mayor*/
+  text-align: center;
+  line-height: 100px;
+}

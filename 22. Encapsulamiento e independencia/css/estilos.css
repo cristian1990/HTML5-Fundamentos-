@@ -1,0 +1,28 @@
+/*Agrego margin-bottom a todos los contenedores, para que
+  al momento de permutarlos no haya diferencia de margenes*/
+.carrusel {
+  height: 220px;
+  background-color: #baa6f7;
+  margin-bottom: 20px;
+  line-height: 200px;
+}
+
+#publicidad {
+  height: 140px;
+  background-color: #e4a75c;
+  margin-bottom: 20px;
+  line-height: 140px;
+}
+
+#ultimas-noticias {
+  height: 190px;
+  background-color: gray;
+  margin-bottom: 20px;
+  line-height: 190px;
+}
+
+body {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
